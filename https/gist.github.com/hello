@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Portofolio | Αρχική</title>
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link href="css/myPortofolio.css" rel="stylesheet" type="text/css" />
+
+<!-- include jQuery library -->
+<script type="text/javascript" src="jquery/jquery.min.js"></script>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="jquery/jquery.cycle.all.latest.js"></script>
+<script type="text/javascript">$(document).ready(function(){$('.slideshow').cycle({fx:'fade'});});</script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+  jQuery(".content1").hide();
+  //toggle the componenet with class msg_body
+  jQuery(".heading").click(function()
+  {
+    jQuery(this).next(".content1").slideToggle(500);
+  });
+});
+</script>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header">
+		<div>  
+ 				<div class="topheader">
+ 				<img src="images/web.gif" alt="" height="90" style="display:block;float:left;"/>
+   				</div>
+   
+  				<div class="sectopheader">
+  				<a href="#" class="toplink">ΜΙΧΑΛΗΣ ΚΑΠΑΡΟΥΝΑΚΗΣ</a>
+                </div>   
+   		</div>
+  </div>      
+    <!-- end .header -->
+  <div class="sidebar1">
+    <ul class="nav">
+        <li><a href="Portfolio.html" class="men">Αρχική</a></li>
+ 		<li class="heading">Πρότζεκτ</li>
+	<div class="content1">
+			<li><a href="pages/projects_main.html" class="men">-Πολυμέσα</a></li>
+   	 		<li><a href="#" class="men" >-Προγραμματισμός</a></li>
+         </div>  
+     	<li><a href="myCV.pdf" target="_blank" class="men">Βιογραφικό</a></li>
+        <li><a href="#" class="men">Επικοινωνία</a></li>
+    </ul>
+<h5>Τελευταία Πρότζεκτ</h5>
+<p>
+<a href="pages/projectFirst.html" class="view"> 
+M-CAP TOURS ΕΠΕΙΣΟΔΙΟ #1</a>
+<a href="pages/projectFirst.html">
+ <img src="images/imgSmLarge/kalokairi2007.jpg" alt="Insert Logo Here" name="Insert_logo" width="160" height="90" style="display:block;float:left; padding-bottom:50px;"/></a>
+</p>
+<p>
+<a href="pages/projectSecond.html" class="view"> 
+M-CAP TOURS ΕΠΕΙΣΟΔΙΟ #2</a>
+ <a href="pages/projectSecond.html">
+  <img src="images/imgSmLarge/petralona.jpg" alt="Insert Logo Here" name="Insert_logo" width="160" height="90" style="display:block;float:left;" />
+</a>
+</p>
+	</div>
+  <!-- end .sidebar1 -->
+  
+	<div class="content">
+  		<div class="slideshow">
+    	<img src="images/slideshowImages/logocap.gif" alt="" class="active" />
+    	<img src="images/slideshowImages/rethymno2008.gif" alt="" />
+    	<img src="images/slideshowImages/efhmobile.gif" alt="" />
+		</div>
+		<div>
+  <img src="images/log.gif" alt="Insert Logo Here" name="Insert_logo" width="311" height="103" style="display:block;"/>  	
+  <img src="images/boxes.gif" alt="Insert Logo Here" name="Insert_logo" width="307" height="261" style="display:block;"/>
+  		</div>
+  		<div>
+		<h4 style="text-decoration:underline;">Προτεινόμενα Πρότζεκτ:</h4>
+			<div>	
+            		<a href="#" title="Καλοκαίρι 2008" style="padding-left:15px;"><img src="images/rethymno2009.gif" alt="" /></a>
+					<a href="#" title="Καλοκαίρι 2008" style="padding-left:15px;"><img src="images/rethymno2009.gif" alt="" /></a>
+					<a href="#" title="Καλοκαίρι 2008" style="padding-left:15px;"><img src="images/rethymno2009.gif" alt="" /></a>
+   			</div>
+        </div>    
+  <div class="footer">
+    <h6>Copyright © 2013 myPortfolio/Portfolio Μιχάλης Καπαρουνάκης</h6>
+    <!-- end .footer --></div>
+    </div>
+  <!-- end .container --></div>
+
+</body>
+</html>
